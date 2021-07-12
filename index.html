@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Get Dad Jokes</title>
     <link rel="stylesheet" href="./index.css">
 </head> 
 <body>
@@ -12,10 +12,13 @@
             <!-- Part of the API -->
             <div class="joke"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ea et ratione repellat iure minus! Voluptatum, ducimus. Odit, iure quas.</p></div>
             <button>Get Dad Joke</button>
-            <button class="like__btn">
-                <span id="icon"><i class="far fa-thumbs-up"></i></span>
-                <span id="count">0</span> Like
-            </button>
+            <audio id="myAudio">
+                <source src="./Audio/Funny-Laugh-A2-www.fesliyanstudios.com.mp3" type="audio/ogg">
+            </audio>
+            
+            <button class="like" onclick="playAudio()" type="button">😂Like😂</button>
+            <button class="counter" onclick="pauseAudio()" type="button"></button>
+        </div>    
     </section>
     <script src="index.js"></script>
 </body>   

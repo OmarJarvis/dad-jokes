@@ -57,15 +57,12 @@ button {
   align-self: flex-end;
 }
 
+.like{
 
-.like__btn {
-  padding: 10px 15px;
-  background: #0080ff;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  border-radius: 5px;
-  color: #e8efff;
-  outline: none;
-  border: none;
-  cursor: pointer;
+
+}
+
+.container{
+
+  
 }
