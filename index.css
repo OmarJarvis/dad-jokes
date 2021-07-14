@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 * {
@@ -57,12 +58,12 @@ button {
   align-self: flex-end;
 }
 
-.like{
-
-
-}
-
-.container{
-
+body h1 {
+  padding-top: 40px;
+  color: orange;
+  text-align: center;
+  font-size: xx-large;
+ 
   
 }
+
